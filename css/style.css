@@ -6,10 +6,15 @@
   border: 0;
 }
 .categories img {
-  width: 200px;
+  width: 180px;
   height: 250px;
 }
-.contract {
+.card-boder {
   border: 0;
-  background-color: aqua;
+}
+.header-top {
+  background-color: thistle;
+}
+.navbar li a {
+  color: black;
 }

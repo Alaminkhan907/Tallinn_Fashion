@@ -5,58 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tallinn Fashion</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="cssstyle.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
   </head>
   <body>
-    <header class="container">
-      <!-- Image and text -->
-      <nav class="navbar navbar-light bg-light mt-5">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img
-              src="Logo, Icon/Group 33072.png"
-              class="d-inline-block align-top"
-              width="200px"
-            />
-          </a>
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact us</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <header class="header-top">
+      <div class="container">
+        <nav class="navbar navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="Logo, Icon/Group 33072.png"
+                class="d-inline-block align-top"
+                width="200px"
+              />
+            </a>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contract">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section class="container overflow-hidden mt-5">
+          <div class="row mt-2">
+            <div class="col md-3 mt-5">
+              <div>
+                <h1>BE THE PENGUINS OF WINTER</h1>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable
+                </p>
+              </div>
+              <button
+                style="color: white; background-color: #5d706b"
+                class="btn fas fa-shopping-cart"
+              >
+                BUY NOW
+              </button>
+            </div>
+            <div class="col-md-5">
+              <img src="image/Mask Group.png" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+        </section>
+      </div>
     </header>
     <main>
-      <section class="container overflow-hidden mt-5">
-        <div class="row mt-2">
-          <div class="col md-3 mt-5">
-            <div>
-              <h1>BE THE PENGUINS OF WINTER</h1>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable
-              </p>
-            </div>
-            <div class="btn btn-warning">Buy now</div>
-          </div>
-          <div class="col-md-5">
-            <img src="image/Mask Group.png" class="d-block w-100" alt="..." />
-          </div>
-        </div>
-      </section>
-      <section class="container overflow-hidden mt-5 categories">
+      <section id="product" class="container overflow-hidden mt-5 categories">
         <h1>WOMENT JACKET</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -74,9 +81,14 @@
                 </p>
               </div>
               <div class="card-footer price d-flex justify-content-between">
-                <h3>$234</h3>
+                <h3 style="font-weight: 700; color: rgb(224, 179, 94)">$234</h3>
                 <div>
-                  <button class="btn btn-warning">BUY NOW</button>
+                  <button
+                    style="color: white; background-color: #5d706b"
+                    class="btn fas fa-shopping-cart h-100 w-100"
+                  >
+                    BUY NOW
+                  </button>
                 </div>
               </div>
             </div>
@@ -100,10 +112,15 @@
                   even slightly believable
                 </p>
               </div>
-              <div class="card-footer d-flex justify-content-between price">
-                <h3>$234</h3>
+              <div class="card-footer price d-flex justify-content-between">
+                <h3 style="font-weight: 700; color: rgb(224, 179, 94)">$234</h3>
                 <div>
-                  <button class="btn btn-warning">BUY NOW</button>
+                  <button
+                    style="color: white; background-color: #5d706b"
+                    class="btn fas fa-shopping-cart h-100 w-100"
+                  >
+                    BUY NOW
+                  </button>
                 </div>
               </div>
             </div>
@@ -122,10 +139,15 @@
                   even slightly believable
                 </p>
               </div>
-              <div class="card-footer d-flex justify-content-between price">
-                <h3>$234</h3>
+              <div class="card-footer price d-flex justify-content-between">
+                <h3 style="font-weight: 700; color: rgb(224, 179, 94)">$234</h3>
                 <div>
-                  <button class="btn btn-warning">BUY NOW</button>
+                  <button
+                    style="color: white; background-color: #5d706b"
+                    class="btn fas fa-shopping-cart h-100 w-100"
+                  >
+                    BUY NOW
+                  </button>
                 </div>
               </div>
             </div>
@@ -150,9 +172,14 @@
                 </p>
               </div>
               <div class="card-footer price d-flex justify-content-between">
-                <h3>$234</h3>
+                <h3 style="font-weight: 700; color: rgb(224, 179, 94)">$234</h3>
                 <div>
-                  <button class="btn btn-warning">BUY NOW</button>
+                  <button
+                    style="color: white; background-color: #5d706b"
+                    class="btn fas fa-shopping-cart h-100 w-100"
+                  >
+                    BUY NOW
+                  </button>
                 </div>
               </div>
             </div>
@@ -172,10 +199,15 @@
                   even slightly believable
                 </p>
               </div>
-              <div class="card-footer d-flex justify-content-between price">
-                <h3>$234</h3>
+              <div class="card-footer price d-flex justify-content-between">
+                <h3 style="font-weight: 700; color: rgb(224, 179, 94)">$234</h3>
                 <div>
-                  <button class="btn btn-warning">BUY NOW</button>
+                  <button
+                    style="color: white; background-color: #5d706b"
+                    class="btn fas fa-shopping-cart h-100 w-100"
+                  >
+                    BUY NOW
+                  </button>
                 </div>
               </div>
             </div>
@@ -194,21 +226,28 @@
                   even slightly believable
                 </p>
               </div>
-              <div class="card-footer d-flex justify-content-between price">
-                <h3>$234</h3>
+              <div class="card-footer price d-flex justify-content-between">
+                <h3 style="font-weight: 700; color: rgb(224, 179, 94)">$234</h3>
                 <div>
-                  <button class="btn btn-warning">BUY NOW</button>
+                  <button
+                    style="color: white; background-color: #5d706b"
+                    class="btn fas fa-shopping-cart h-100 w-100"
+                  >
+                    BUY NOW
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="container mt-5">
-        <div class="card mb-4" style="max-width: auto">
+      <section id="About" class="container mt-5">
+        <div class="card card-boder mb-4" style="max-width: auto">
           <div class="row no-gutters">
             <div class="col-md-6">
-              <div class="card mb-3">
+              <div
+                class="card card-boder shadow p-3 mb-5 bg-white rounded mb-3"
+              >
                 <div class="row g-0">
                   <div class="col-md-4 d-inline-flex p-4 bd-highlight">
                     <img
@@ -228,7 +267,10 @@
                   </div>
                 </div>
               </div>
-              <div class="card mb-3" style="max-width: auto">
+              <div
+                class="card card-boder shadow p-3 mb-5 bg-white rounded mb-3"
+                style="max-width: auto"
+              >
                 <div class="row g-0">
                   <div class="col-md-4 d-inline-flex p-4 bd-highlight">
                     <img
@@ -247,7 +289,10 @@
                   </div>
                 </div>
               </div>
-              <div class="card mb-3" style="max-width: auto">
+              <div
+                class="card card-boder shadow p-3 mb-5 bg-white rounded mb-3"
+                style="max-width: auto"
+              >
                 <div class="row g-0">
                   <div class="col-md-4 d-inline-flex p-4 bd-highlight">
                     <img
@@ -277,7 +322,7 @@
         </div>
       </section>
     </main>
-    <footer class="text-center mt-5">
+    <footer id="contract" class="text-center mt-5">
       <small>
         ©2021. Tallinn Commerce. All rights reserved.Tallinn Estonia</small
       >
