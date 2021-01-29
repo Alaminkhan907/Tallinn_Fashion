@@ -9,3 +9,7 @@
   width: 200px;
   height: 250px;
 }
+.contract {
+  border: 0;
+  background-color: aqua;
+}
